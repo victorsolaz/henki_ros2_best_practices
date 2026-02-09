@@ -23,7 +23,7 @@ Henki ROS 2 Best Practices can be easily integrated with your favorite coding ag
     
     ```
     Always read and follow the best practices defined in:
-    - henki_ros2_best_practices/HENKI_ROS2_BEST_PRACTICES.md
+    - henki_ros2_best_practices/henki_ros2_best_practices.md
     ```
 
 
