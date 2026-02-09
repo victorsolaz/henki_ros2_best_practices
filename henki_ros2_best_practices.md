@@ -6,7 +6,7 @@
 
 ## Launch files
 - Generate launch files in `launch` folder.
-- Prefer XML launch format. Python launch files were not intended to be used as the launch front-end, but can be still used if needed for flexibility.
+- Prefer XML launch format. Python launch files are not intended to be used as the launch front-end, but can be still used if needed for flexibility.
 - Avoid passing or hardcoding node parameters in launch files; use config files instead.
 
 ## Parameters and Config Files
