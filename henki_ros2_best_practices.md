@@ -15,7 +15,7 @@
 - If parameters are expected to be changed in runtime, make the parameters dynamic by defining parameter callbacks.
 
 ## Logging
-- Use ROS 2 logger instead of `print()` and `std::cout` statemets. 
+- Use ROS 2 logger instead of `print()` and `std::cout` statements. 
 - Use relevant log levels to avoid log noise:
   - `INFO`: System operates normally, logged as informational purposes.
   - `WARN`: Unexpected, but recoverable condition. Might require action.
@@ -43,7 +43,7 @@
 - Follow the existing project coding style for all legacy code to maintain consistency. Apply updated best practices only to new nodes or when refactoring code.
 
 ## Performance
-- Prefer C++ over Python for performance-critical nodes with high-frequency control loops and high-bandwith data. Python works well for example for tooling, high-level orchestration, testing and prototyping.
+- Prefer C++ over Python for performance-critical nodes with high-frequency control loops and high-bandwidth data. Python works well for example for tooling, high-level orchestration, testing and prototyping.
 - Use C++ composable nodes with intra-process communication enabled to pass large data such as images and point clouds between nodes. This avoids large memory and DDS overhead.
 
 ## Executors and Callback Groups
